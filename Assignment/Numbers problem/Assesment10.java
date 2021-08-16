@@ -26,17 +26,17 @@ class Assesment10
 
     static void multiplicationFactor(int n)
     {
-        int mult = 1; 
+        int mult=1; 
 
-        for(int i=1; i<=n;i++) 
+        for(int i=1; i<n;i++) 
         {
             
-            if(n/i==0) 
+            if(n%i==0) 
             {
-               mult = mult *i; 
+               mult = mult * i; 
             }
         }
-        System.out.println(+mult);
+        System.out.println(mult);
        
     }
 
